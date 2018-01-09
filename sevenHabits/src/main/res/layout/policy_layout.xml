@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent" >
+    	<LinearLayout 
+    	    android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:orientation="vertical" > 
+    	
+	    	<com.discovertodo.phone.android.model.JustifyTextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="@dimen/margin_normalxxx" 
+	    		android:layout_marginRight="@dimen/margin_normalxx"
+	    		android:layout_marginTop="@dimen/margin_normal" 
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/black"
+	    		android:text="@string/policy_text_0" />
+    	
+	    	<TextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:paddingLeft="@dimen/margin_normalxxx" 
+	    		android:paddingTop="@dimen/margin_smallxxx"
+	    		android:paddingBottom="@dimen/margin_smallxxx"
+	    		android:background="@color/gray"
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/white"
+	    		android:text="@string/policy_text_1" />
+    	
+	    	<com.discovertodo.phone.android.model.JustifyTextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="@dimen/margin_normalxxx" 
+	    		android:layout_marginRight="@dimen/margin_normalxx"
+	    		android:layout_marginTop="@dimen/margin_normal" 
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/black"
+	    		android:text="@string/policy_text_1_content" />
+    	
+	    	<TextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:paddingLeft="@dimen/margin_normalxxx" 
+	    		android:paddingTop="@dimen/margin_smallxxx"
+	    		android:paddingBottom="@dimen/margin_smallxxx"
+	    		android:background="@color/gray"
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/white"
+	    		android:text="@string/policy_text_2" />
+    	
+	    	<com.discovertodo.phone.android.model.JustifyTextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="@dimen/margin_normalxxx" 
+	    		android:layout_marginRight="@dimen/margin_normalxx"
+	    		android:layout_marginTop="@dimen/margin_normal" 
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/black"
+	    		android:text="@string/policy_text_2_content" />
+    	
+	    	<TextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:paddingLeft="@dimen/margin_normalxxx" 
+	    		android:paddingTop="@dimen/margin_smallxxx"
+	    		android:paddingBottom="@dimen/margin_smallxxx"
+	    		android:background="@color/gray"
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/white"
+	    		android:text="@string/policy_text_3" />
+    	
+	    	<com.discovertodo.phone.android.model.JustifyTextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="@dimen/margin_normalxxx" 
+	    		android:layout_marginRight="@dimen/margin_normalxx"
+	    		android:layout_marginTop="@dimen/margin_normal" 
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/black"
+	    		android:text="@string/policy_text_3_content" />
+    	
+	    	<TextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:paddingLeft="@dimen/margin_normalxxx" 
+	    		android:paddingTop="@dimen/margin_smallxxx"
+	    		android:paddingBottom="@dimen/margin_smallxxx"
+	    		android:background="@color/gray"
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/white"
+	    		android:text="@string/policy_text_4" />
+    	
+	    	<com.discovertodo.phone.android.model.JustifyTextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="@dimen/margin_normalxxx" 
+	    		android:layout_marginRight="@dimen/margin_normalxx"
+	    		android:layout_marginTop="@dimen/margin_normal" 
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/black"
+	    		android:text="@string/policy_text_4_content" />
+    	
+	    	<TextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:paddingLeft="@dimen/margin_normalxxx" 
+	    		android:paddingTop="@dimen/margin_smallxxx"
+	    		android:paddingBottom="@dimen/margin_smallxxx"
+	    		android:background="@color/gray"
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/white"
+	    		android:text="@string/policy_text_5" />
+    	
+	    	<com.discovertodo.phone.android.model.JustifyTextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="@dimen/margin_normalxxx" 
+	    		android:layout_marginRight="@dimen/margin_normalxx"
+	    		android:layout_marginTop="@dimen/margin_normal" 
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/black"
+	    		android:text="@string/policy_text_5_content" />
+    	
+	    	<TextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:paddingLeft="@dimen/margin_normalxxx" 
+	    		android:paddingTop="@dimen/margin_smallxxx"
+	    		android:paddingBottom="@dimen/margin_smallxxx"
+	    		android:background="@color/gray"
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/white"
+	    		android:text="@string/policy_text_6" />
+    	
+	    	<com.discovertodo.phone.android.model.JustifyTextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="@dimen/margin_normalxxx" 
+	    		android:layout_marginRight="@dimen/margin_normalxx"
+	    		android:layout_marginTop="@dimen/margin_normal" 
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/black"
+	    		android:text="@string/policy_text_6_content" />
+    	
+	    	<TextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:paddingLeft="@dimen/margin_normalxxx" 
+	    		android:paddingTop="@dimen/margin_smallxxx"
+	    		android:background="@color/gray"
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/white"
+	    		android:text="@string/policy_text_7" />
+    	
+	    	<com.discovertodo.phone.android.model.JustifyTextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="@dimen/margin_normalxxx" 
+	    		android:layout_marginRight="@dimen/margin_normalxx"
+	    		android:layout_marginTop="@dimen/margin_normal" 
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/black"
+	    		android:text="@string/policy_text_7_content" />
+    	
+	    	<TextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:paddingLeft="@dimen/margin_normalxxx" 
+	    		android:paddingTop="@dimen/margin_smallxxx"
+	    		android:paddingBottom="@dimen/margin_smallxxx"
+	    		android:background="@color/gray"
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/white"
+	    		android:text="@string/policy_text_8" />
+    	
+	    	<com.discovertodo.phone.android.model.JustifyTextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="@dimen/margin_normalxxx" 
+	    		android:layout_marginRight="@dimen/margin_normalxx"
+	    		android:layout_marginTop="@dimen/margin_normal" 
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/black"
+	    		android:text="@string/policy_text_8_content" />
+    	
+	    	<TextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:paddingLeft="@dimen/margin_normalxxx" 
+	    		android:paddingTop="@dimen/margin_smallxxx"
+	    		android:paddingBottom="@dimen/margin_smallxxx"
+	    		android:background="@color/gray"
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/white"
+	    		android:text="@string/policy_text_9" />
+    	
+	    	<com.discovertodo.phone.android.model.JustifyTextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="@dimen/margin_normalxxx" 
+	    		android:layout_marginRight="@dimen/margin_normalxx"
+	    		android:layout_marginTop="@dimen/margin_normal" 
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/black"
+	    		android:text="@string/policy_text_9_content" />
+    	
+	    	<TextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:paddingLeft="@dimen/margin_normalxxx" 
+	    		android:paddingTop="@dimen/margin_smallxxx"
+	    		android:paddingBottom="@dimen/margin_smallxxx"
+	    		android:background="@color/gray"
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/white"
+	    		android:text="@string/policy_text_10" />
+    	
+	    	<com.discovertodo.phone.android.model.JustifyTextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="@dimen/margin_normalxxx" 
+	    		android:layout_marginRight="@dimen/margin_normalxx"
+	    		android:layout_marginTop="@dimen/margin_normal" 
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/black"
+	    		android:text="@string/policy_text_10_content" />
+    	
+	    	<TextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:paddingLeft="@dimen/margin_normalxxx" 
+	    		android:paddingTop="@dimen/margin_smallxxx"
+	    		android:paddingBottom="@dimen/margin_smallxxx"
+	    		android:background="@color/gray"
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/white"
+	    		android:text="@string/policy_text_11" />
+    	
+	    	<com.discovertodo.phone.android.model.JustifyTextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="@dimen/margin_normalxxx" 
+	    		android:layout_marginRight="@dimen/margin_normalxx"
+	    		android:layout_marginTop="@dimen/margin_normal" 
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/black"
+	    		android:text="@string/policy_text_11_content" />
+    	
+	    	<TextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:paddingLeft="@dimen/margin_normalxxx" 
+	    		android:paddingTop="@dimen/margin_smallxxx"
+	    		android:paddingBottom="@dimen/margin_smallxxx"
+	    		android:background="@color/gray"
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/white"
+	    		android:text="@string/policy_text_12" />
+    	
+	    	<com.discovertodo.phone.android.model.JustifyTextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="@dimen/margin_normalxxx" 
+	    		android:layout_marginRight="@dimen/margin_normalxx"
+	    		android:layout_marginTop="@dimen/margin_normal" 
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/black"
+	    		android:text="@string/policy_text_12_content" />
+    	
+	    	<TextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:paddingLeft="@dimen/margin_normalxxx" 
+	    		android:paddingTop="@dimen/margin_smallxxx"
+	    		android:paddingBottom="@dimen/margin_smallxxx"
+	    		android:background="@color/gray"
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/white"
+	    		android:text="@string/policy_text_13" />
+    	
+	    	<com.discovertodo.phone.android.model.JustifyTextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="@dimen/margin_normalxxx" 
+	    		android:layout_marginRight="@dimen/margin_normalxx"
+	    		android:layout_marginTop="@dimen/margin_normal" 
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/black"
+	    		android:text="@string/policy_text_13_content" />
+	    	
+	    	<TextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="match_parent"
+	    		android:layout_marginLeft="@dimen/margin_normalxx" 
+	    		android:layout_marginRight="@dimen/margin_normalxxx"
+	    		android:gravity="right"
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/black"
+	    		android:text="以上\n2015年3月1日\nフランクリン・コヴィー・ジャパン株式会社\n" />
+    	
+    	</LinearLayout>
+        
+    </ScrollView>
+
+</LinearLayout>

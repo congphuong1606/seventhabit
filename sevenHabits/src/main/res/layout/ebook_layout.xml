@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <com.discovertodo.phone.android.ebook.EpubWebView
+            android:id="@+id/ebook_webview"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/linearLayout1"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:orientation="vertical" >
+
+            <SeekBar
+                android:id="@+id/ebook_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_tiny"
+                android:layout_marginLeft="@dimen/margin_smallxx"
+                android:layout_marginRight="@dimen/margin_smallxx"
+                android:max="100"
+                android:progress="0"
+                android:thumb="@drawable/btn_radio1" />
+
+            <TextView
+                android:id="@+id/ebook_numberpage_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_small"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-10dp"
+            android:background="@android:color/transparent"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <com.discovertodo.phone.android.util.VerticalSeekBarWrapper
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:background="@android:color/transparent" >
+
+                <com.discovertodo.phone.android.util.VerticalSeekBar
+                    android:id="@+id/seekBarVertical"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:progress="0"
+                    android:progressDrawable="@android:color/transparent"
+                    android:thumb="@drawable/btn_radio1"
+                    app:seekBarRotation="CW90" />
+            </com.discovertodo.phone.android.util.VerticalSeekBarWrapper>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_largexx"
+            android:layout_gravity="center|top"
+            android:layout_marginBottom="10dp" >
+
+            <com.discovertodo.phone.android.util.SwitchView
+                android:id="@+id/switch_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" >
+            </com.discovertodo.phone.android.util.SwitchView>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

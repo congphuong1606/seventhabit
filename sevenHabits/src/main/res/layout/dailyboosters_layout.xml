@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_dailyboosters"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/dailybootsters_btn_show_all"
+            android:layout_width="@dimen/dailyboosters_ic_showall_width"
+            android:layout_height="@dimen/dailyboosters_ic_showall_width"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin_normalx"
+            android:src="@drawable/ic_btshowlist" />
+
+        <TextView
+            android:id="@+id/dailybootsters_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_large"
+            android:gravity="center_horizontal"
+            android:text="dasdsad"
+            android:textColor="@color/bluex"
+            android:textSize="@dimen/text_size_normal" />
+
+        <ImageView
+            android:id="@+id/btn_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_tinyxx"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_toRightOf="@+id/dailybootsters_time_text"
+            android:background="@drawable/icon_bookmark2" />
+
+        <TextView
+            android:id="@+id/dailybootsters_content_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/dailybootsters_btn_show_all"
+            android:layout_below="@id/dailybootsters_time_text"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:layout_marginLeft="@dimen/margin_normalx"
+            android:layout_marginRight="@dimen/margin_normalx"
+            android:layout_marginTop="@dimen/margin_small"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/dailybootsters_all_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bluex"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/home_layout_top_select"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/drawer_item_btnmenu_width"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/margin_smallxxx"
+            android:layout_marginRight="@dimen/margin_smallxxx"
+            android:layout_marginTop="@dimen/margin_small">
+
+            <ImageView
+                android:id="@+id/home_btn_menu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingRight="@dimen/margin_smallx"
+                android:paddingBottom="@dimen/margin_small"
+                android:paddingTop="@dimen/margin_small"
+                android:src="@drawable/menu_icon" />
+
+            <LinearLayout
+                android:id="@+id/tab_select"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margin_smallx"
+                android:layout_marginLeft="@dimen/margin_largexxx"
+                android:layout_marginRight="@dimen/margin_largexxx"
+                android:layout_marginTop="@dimen/margin_smallx"
+                android:layout_weight="16"
+                android:background="@drawable/bg_tab_select"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnBooster"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_btn_dailybooster_all"
+                    android:text="過去の配信"
+                    android:textColor="@drawable/btn_text_color"
+                    android:textSize="@dimen/text_size_smallxx" />
+
+                <Button
+                    android:id="@+id/btnFavorite"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_btn_dailybooster_favorite"
+                    android:text="お気に入り"
+                    android:textColor="@drawable/btn_text_color"
+                    android:textSize="@dimen/text_size_smallxx" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/dailyboosters_btn_close_all"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/title_btn_finish"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_smallxx" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/search_booster"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/drawer_item_btnmenu_width"
+            android:background="@color/bluex">
+
+            <LinearLayout
+                android:id="@+id/linearSeach"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margin_smallxxx"
+                android:layout_marginLeft="@dimen/margin_smallxxx"
+                android:layout_marginRight="@dimen/margin_smallxxx"
+                android:layout_marginTop="@dimen/margin_small"
+                android:background="@drawable/bg_btn_search"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:drawableLeft="@drawable/ic_action_search"
+                    android:text="検索"
+                    android:textColor="#CECFCF" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/home_layout_top_search"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="@dimen/margin_smallx"
+            android:layout_marginLeft="@dimen/margin_smallxxx"
+            android:layout_marginRight="@dimen/margin_smallxxx"
+            android:layout_marginTop="@dimen/margin_smallx"
+            android:background="@color/bluex"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/layoutSearch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:background="@drawable/bg_btn_search"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/margin_small"
+                android:paddingRight="@dimen/margin_small">
+
+                <ImageView
+                    android:id="@+id/imgSearch"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_action_search" />
+
+                <EditText
+                    android:id="@+id/search"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:hint="検索"
+                    android:inputType="text"/>
+
+                <ImageView
+                    android:id="@+id/btnClearText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_action_remove" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/btn_cancel_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="@string/title_btn_cancel"
+                android:textColor="@drawable/btn_text_color"
+                android:textSize="@dimen/text_size_normalx" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/list_booster"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/yellow">
+
+            <ListView
+                android:id="@+id/dailybootsters_all_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:choiceMode="singleChoice"
+                android:divider="@color/gray_3"
+                android:dividerHeight="0.5dp" />
+
+            <TextView
+                android:id="@+id/txt_no_result"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="150dp"
+                android:gravity="center_horizontal"
+                android:text="@string/no_result_search"
+                android:textSize="20sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

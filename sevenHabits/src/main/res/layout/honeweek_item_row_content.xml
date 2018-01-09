@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/honeweek_item_width"
+    android:orientation="vertical"
+    android:background="@color/yellow" >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="@dimen/honeweek_item_width"
+    	android:gravity="center_vertical" >
+	    <TextView 
+	        android:id="@+id/honeweek_item_row_content_text_delete"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="match_parent"
+	    	android:padding="@dimen/margin_normal"
+	    	android:gravity="center"
+	    	android:background="#ff0000"
+	    	android:textColor="@color/white"
+	    	android:layout_alignParentRight="true"
+	    	android:visibility="gone"
+	    	android:clickable="true"
+	    	android:text="削除" />
+	    <RelativeLayout 
+	        android:id="@+id/honeweek_item_row_content_layout"
+	        android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+	    	android:layout_toLeftOf="@id/honeweek_item_row_content_text_delete"
+	    	android:gravity="center_vertical" >
+		    <ImageView 
+		        android:id="@+id/honeweek_item_row_content_img_delete"
+		        android:layout_width="@dimen/margin_huge"
+		    	android:layout_height="match_parent"
+		    	android:visibility="gone"
+		    	android:paddingTop="@dimen/margin_smallxx"
+		    	android:paddingBottom="@dimen/margin_smallxx"
+		    	android:paddingLeft="@dimen/margin_normal"
+		        android:src="@drawable/ic_delete_item"/>
+		    <ImageView 
+		        android:id="@+id/honeweek_item_row_content_img_move"
+		        android:layout_width="@dimen/margin_hugexx"
+		    	android:layout_height="match_parent"
+		    	android:layout_alignParentRight="true"
+		    	android:visibility="gone"
+		    	android:paddingTop="@dimen/margin_normalx"
+		    	android:paddingBottom="@dimen/margin_normalx"
+		    	android:paddingRight="@dimen/margin_normal"
+		    	android:scaleType="fitEnd"
+		        android:src="@drawable/ic_move_item"/>
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:layout_toLeftOf="@id/honeweek_item_row_content_img_move"
+		    	android:layout_toRightOf="@id/honeweek_item_row_content_img_delete"
+		    	android:paddingLeft="@dimen/margin_small"
+		    	android:gravity="center_vertical" >
+			    <ImageView 
+			        android:id="@+id/honeweek_item_row_content_btn_check"
+			        android:layout_width="@dimen/margin_largexxx"
+			    	android:layout_height="match_parent"
+			    	android:paddingLeft="@dimen/margin_smallxxx"
+			    	android:paddingRight="@dimen/margin_tinyxx"
+			        android:src="@drawable/bg_btn_honeweek_item_check"/>
+			    <ImageView 
+			        android:id="@+id/honeweek_item_row_content_btn_calendar"
+			        android:layout_width="@dimen/margin_largexxx"
+			    	android:layout_height="match_parent"
+			    	android:layout_alignParentRight="true"
+			    	android:paddingRight="@dimen/margin_smallxxx"
+			        android:src="@drawable/ic_calendar"/>
+		    	<TextView 
+			        android:id="@+id/honeweek_item_row_content_text_title"
+		    	    android:layout_width="match_parent"
+		    		android:layout_height="match_parent"
+			    	android:layout_toLeftOf="@id/honeweek_item_row_content_btn_calendar"
+			    	android:layout_toRightOf="@id/honeweek_item_row_content_btn_check"
+			    	android:paddingLeft="@dimen/margin_smallx"
+			    	android:gravity="center_vertical"
+			    	android:singleLine="true"
+		    		android:textColor="@color/black"
+		    		android:textSize="@dimen/text_size_normal"
+		    		android:clickable="true" />
+		    </RelativeLayout>
+		</RelativeLayout>
+        
+    
+        
+    </RelativeLayout>
+    
+    <LinearLayout
+	    android:id="@+id/honeweek_item_row_add_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/honeweek_item_width"
+	    android:paddingLeft="@dimen/margin_normal"
+	    android:paddingTop="@dimen/margin_smallx"
+	    android:paddingBottom="@dimen/margin_smallx"
+	    android:gravity="center_vertical"
+	    android:orientation="horizontal"
+	    android:background="@color/yellow"
+	    android:clickable="true"
+	    android:visibility="gone" >
+    
+	    <ImageView 
+	        android:layout_width="@dimen/margin_largex"
+	    	android:layout_height="match_parent"
+	    	android:padding="@dimen/margin_tinyxxx"
+	        android:src="@drawable/ic_add_item"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="@dimen/margin_smallxxx"
+	    	android:textSize="@dimen/text_size_normal"
+	    	android:textColor="@color/black"
+	    	android:text="「活動」を追加する" />
+
+	</LinearLayout>
+
+</RelativeLayout>

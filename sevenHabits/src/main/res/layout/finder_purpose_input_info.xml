@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke" >
+
+    <View
+        android:layout_width="4dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:background="@color/bluex" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rltRelative0"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="20dp" >
+
+                    <TextView
+                        android:id="@+id/txtFinderText0"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/finder_activity_text0"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edtFinderText0"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtFinderText0"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"
+                        android:hint="@string/finder_activity_edittext0_content"
+                        android:padding="5dp"
+                        android:textSize="13sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rltRelative1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imgNumberOne"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="@drawable/number1" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="20dp" >
+
+                    <TextView
+                        android:id="@+id/txtFinderText1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/finder_activity_text1"
+                        android:textColor="@color/bluex"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtFinderText11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtFinderText1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/finder_activity_text1_content"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edtFinderText1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtFinderText11"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"
+                        android:hint="@string/finder_activity_edittext1_content"
+                        android:padding="5dp"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/txtFinderText12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/edtFinderText1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/finder_activity_text12_content"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edtFinderText12"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/txtFinderText12"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/white"
+                        android:gravity="top"
+                        android:hint="@string/finder_activity_edittext12_content"
+                        android:padding="5dp"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/txtFinderText13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/edtFinderText12"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/finder_activity_text13_content"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edtFinderText13"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/txtFinderText13"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/white"
+                        android:gravity="top"
+                        android:hint="@string/finder_activity_edittext13_content"
+                        android:padding="5dp"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/txtFinderText14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/edtFinderText13"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/finder_activity_text14_content"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edtFinderText14"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/txtFinderText14"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/white"
+                        android:gravity="top"
+                        android:hint="@string/finder_activity_edittext14_content"
+                        android:padding="5dp"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/txtFinderText15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/edtFinderText14"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/finder_activity_text15_content"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edtFinderText15"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/txtFinderText15"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/white"
+                        android:gravity="top"
+                        android:hint="@string/finder_activity_edittext15_content"
+                        android:padding="5dp"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/txtFinderText16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/edtFinderText15"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/finder_activity_text16_content"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edtFinderText16"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/txtFinderText16"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/white"
+                        android:gravity="top"
+                        android:hint="@string/finder_activity_edittext16_content"
+                        android:padding="5dp"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/txtFinderText17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/edtFinderText16"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/finder_activity_text17_content"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edtFinderText17"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/txtFinderText17"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/white"
+                        android:gravity="top"
+                        android:hint="@string/finder_activity_edittext17_content"
+                        android:padding="5dp"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/txtFinderText18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/edtFinderText17"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/finder_activity_text18_content"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edtFinderText18"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/txtFinderText18"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/white"
+                        android:gravity="top"
+                        android:hint="@string/finder_activity_edittext18_content"
+                        android:padding="5dp"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/txtFinderText19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/edtFinderText18"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/finder_activity_text19_content"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edtFinderText19"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/txtFinderText19"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/white"
+                        android:gravity="top"
+                        android:hint="@string/finder_activity_edittext19_content"
+                        android:padding="5dp"
+                        android:textSize="13sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rltRelative2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <ImageView
+                    android:id="@+id/imgNumberTwo"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="@drawable/number2" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="20dp" >
+
+                    <TextView
+                        android:id="@+id/txtFinderText2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/finder_activity_text2"
+                        android:textColor="@color/bluex"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtFinderText20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtFinderText2"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/finder_activity_text2_content"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edtFinderText20"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/txtFinderText20"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"
+                        android:gravity="top"
+                        android:hint="@string/finder_activity_edittext2_content"
+                        android:padding="5dp"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/txtFinderText21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/edtFinderText20"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/finder_activity_text21_content"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edtFinderText21"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/txtFinderText21"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"
+                        android:gravity="top"
+                        android:hint="@string/finder_activity_edittext21_content"
+                        android:padding="5dp"
+                        android:textSize="13sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rltRelative3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <ImageView
+                    android:id="@+id/imgNumberThree"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="@drawable/number3" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="20dp" >
+
+                    <TextView
+                        android:id="@+id/txtFinderText3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/finder_activity_text3"
+                        android:textColor="@color/bluex"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtFinderText30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtFinderText3"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/finder_activity_text3_content"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edtFinderText30"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/txtFinderText30"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"
+                        android:gravity="top"
+                        android:hint="@string/finder_activity_edittext3_content"
+                        android:padding="5dp"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/txtFinderText31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/edtFinderText30"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/finder_activity_text31_content"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edtFinderText31"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/txtFinderText31"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"
+                        android:gravity="top"
+                        android:hint="@string/finder_activity_edittext31_content"
+                        android:padding="5dp"
+                        android:textSize="13sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rltRelative4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <ImageView
+                    android:id="@+id/imgNumberFour"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="@drawable/number4" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="20dp" >
+
+                    <TextView
+                        android:id="@+id/txtFinderText4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/finder_activity_text4"
+                        android:textColor="@color/bluex"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtFinderText40"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtFinderText4"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/finder_activity_text4_content"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edtFinderText40"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/txtFinderText40"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"
+                        android:gravity="top"
+                        android:hint="@string/finder_activity_edittext4_content"
+                        android:padding="5dp"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edtFinderText41"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/edtFinderText40"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"
+                        android:gravity="top"
+                        android:hint="@string/finder_activity_edittext41_content"
+                        android:padding="5dp"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edtFinderText42"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/edtFinderText41"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"
+                        android:gravity="top"
+                        android:hint="@string/finder_activity_edittext42_content"
+                        android:padding="5dp"
+                        android:textSize="13sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@color/whitesmoke" >
+
+                <Button
+                    android:id="@+id/btnCreateFinderPurposeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/border_button_findercreate"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/finder_activity_create_button"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/btnCancelFinderPurposeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btnCreateFinderPurposeButton"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/border_button_findercreate"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/finder_activity_cancel_button"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

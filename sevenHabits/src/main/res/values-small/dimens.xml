@@ -1,0 +1,50 @@
+<resources>
+
+	<dimen name="text_size_small">11sp</dimen>
+    <dimen name="text_size_smallx">12sp</dimen>
+    <dimen name="text_size_smallxx">13sp</dimen>
+    <dimen name="text_size_normal">15sp</dimen>
+    <dimen name="text_size_normalx">17sp</dimen>
+    <dimen name="text_size_normalxx">18sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_largex">22sp</dimen>
+    <dimen name="text_size_largexx">25sp</dimen>
+    <dimen name="text_size_largexxx">28sp</dimen>
+    <dimen name="text_size_largexxxx">32sp</dimen>
+    
+	<dimen name="margin_normal">15dp</dimen>
+    <dimen name="margin_normalx">17dp</dimen>
+    <dimen name="margin_normalxx">20dp</dimen>
+    <dimen name="margin_normalxxx">23dp</dimen>
+    <dimen name="margin_large">25dp</dimen>
+    <dimen name="margin_largex">28dp</dimen>
+    <dimen name="margin_largexx">30dp</dimen>
+    <dimen name="margin_largexxx">40dp</dimen>
+    <dimen name="margin_huge">45dp</dimen>
+    <dimen name="margin_hugex">45dp</dimen>
+    <dimen name="margin_hugexx">52dp</dimen>
+    <dimen name="margin_hugexxx">65dp</dimen>
+    <dimen name="margin_tiny">1dp</dimen>
+    <dimen name="margin_tinyx">2dp</dimen>
+    <dimen name="margin_tinyxx">3dp</dimen>
+    <dimen name="margin_tinyxxx">4dp</dimen>
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="margin_smallx">8dp</dimen>
+    <dimen name="margin_smallxx">10dp</dimen>
+    <dimen name="margin_smallxxx">12dp</dimen>
+    
+    <dimen name="slidermenu_width">280dp</dimen>
+    <dimen name="drawer_item_icon_width">15dp</dimen>
+    <dimen name="drawer_item_btnmenu_width">50dp</dimen>
+    <dimen name="dailyboosters_ic_showall_width">55dp</dimen>
+    <dimen name="settings_ic_help_width">38dp</dimen>
+    <dimen name="ebook_popup_menu_width">260dp</dimen>
+    <dimen name="honeweek_item_width">45dp</dimen>
+
+    <!--<dimen name="padding_left_right">5dp</dimen>-->
+    <!--<dimen name="margin_left_right">5dp</dimen>-->
+    <!--<dimen name="padding_card">5dp</dimen>-->
+    <!--<dimen name="margin_top">1dp</dimen>-->
+    <!--<dimen name="margin_topx">3dp</dimen>-->
+    <!--<dimen name="margin_topxx">5dp</dimen>-->
+</resources>

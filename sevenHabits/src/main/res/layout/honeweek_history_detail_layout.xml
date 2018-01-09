@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/drawer_item_btnmenu_width"
+        android:background="@color/bluex"
+        android:paddingBottom="@dimen/margin_tinyx"
+        android:paddingTop="@dimen/margin_tinyx" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:onClick="clickBack"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin_normal" >
+
+            <ImageView
+                android:layout_width="@dimen/margin_smallx"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_btn_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_tinyxxx"
+                android:gravity="center"
+                android:text="過去の週"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_smallxx" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingLeft="@dimen/margin_normal"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="clickBack"
+            android:singleLine="true"
+            android:text="@string/menu_honeweek"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/honeweek_history_detail_time_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/margin_smallxx"
+        android:paddingTop="@dimen/margin_smallxx"
+        android:textColor="@color/bluex"
+        android:textSize="@dimen/text_size_normal" />
+
+    <RelativeLayout
+        android:id="@+id/honeweek_history_detail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	<ImageView
+        android:layout_width="@dimen/drawer_item_icon_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/margin_smallx"
+        android:layout_marginRight="@dimen/margin_smallxx"
+        android:src="@drawable/ic_detail_item"
+        android:layout_centerVertical="true" />
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_centerVertical="true"
+    	android:layout_marginLeft="@dimen/margin_normal"
+    	android:layout_marginRight="@dimen/margin_normalxxx"
+    	android:orientation="vertical" >
+        <TextView 
+            android:id="@+id/honeweek_history_list_item_text"
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginTop="@dimen/margin_smallx"
+    		android:textColor="@color/black"
+    		android:textSize="@dimen/text_size_normal"
+    		android:text="12-03-2015" />
+        <TextView 
+            android:id="@+id/honeweek_history_list_item_desc"
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginTop="@dimen/margin_small"
+    		android:layout_marginBottom="@dimen/margin_smallx"
+			android:singleLine="true"
+    		android:textColor="@color/black"
+    		android:textSize="@dimen/text_size_smallxx"
+    		android:text="12-03-2015"  />
+    </LinearLayout>
+
+</RelativeLayout>

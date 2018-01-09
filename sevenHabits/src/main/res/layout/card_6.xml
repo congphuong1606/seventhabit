@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_card"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/mind_card_6_1" />
+
+        <ScrollView
+            android:id="@+id/scroll_6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <com.discovertodo.phone.android.util.TextViewWithFont
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_card_6_1"
+                    android:layout_marginTop="5dp"
+                    font:name="MSGothic"
+                    font:textcolor="blue"
+                    font:textsize="nomarlxx" />
+
+                <com.discovertodo.phone.android.util.TextViewWithFont
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/text_card_6"
+                    font:name="MSGothic"
+                    font:textcolor="black"
+                    font:textsize="nomarl" />
+
+                <ImageView
+                    android:id="@+id/img_card_6_1"
+                    android:layout_width="200dp"
+                    android:layout_height="72dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/mind_card_6_1_1" />
+
+                <com.discovertodo.phone.android.util.TextViewWithFont
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/text_card_6_2"
+                    font:name="MSGothic"
+                    font:textcolor="blue"
+                    font:textsize="nomarlxx" />
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/table_border"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <com.discovertodo.phone.android.util.TextViewWithFont
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/text_card_6_3"
+                                font:name="MSGothic"
+                                font:textcolor="blue"
+                                font:textsize="nomarl" />
+
+                            <com.discovertodo.phone.android.util.TextViewWithFont
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/text_card_6_4"
+                                font:name="MSGothic"
+                                font:textcolor="black"
+                                font:textsize="nomarl" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/table_border"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <com.discovertodo.phone.android.util.TextViewWithFont
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/text_card_6_5"
+                                font:name="MSGothic"
+                                font:textcolor="blue"
+                                font:textsize="nomarl" />
+
+                            <com.discovertodo.phone.android.util.TextViewWithFont
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/text_card_6_6"
+                                font:name="MSGothic"
+                                font:textcolor="black"
+                                font:textsize="nomarl" />
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/table_border"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <com.discovertodo.phone.android.util.TextViewWithFont
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/text_card_6_7"
+                                font:name="MSGothic"
+                                font:textcolor="blue"
+                                font:textsize="nomarl" />
+
+                            <com.discovertodo.phone.android.util.TextViewWithFont
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/text_card_6_8"
+                                font:name="MSGothic"
+                                font:textcolor="black"
+                                font:textsize="nomarl" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/table_border"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <com.discovertodo.phone.android.util.TextViewWithFont
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/text_card_6_9"
+                                font:name="MSGothic"
+                                font:textcolor="blue"
+                                font:textsize="nomarl" />
+
+                            <com.discovertodo.phone.android.util.TextViewWithFont
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/text_card_6_10"
+                                font:name="MSGothic"
+                                font:textcolor="black"
+                                font:textsize="nomarl" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+
+                <com.discovertodo.phone.android.util.TextViewWithFont
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/text_card_6_11"
+                    font:name="MSGothic"
+                    font:textcolor="black"
+                    font:textsize="nomarl" />
+
+                <com.discovertodo.phone.android.util.TextViewWithFont
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/text_card_6_12"
+                    font:name="MSGothic"
+                    font:textcolor="blue"
+                    font:textsize="nomarlxx" />
+
+                <com.discovertodo.phone.android.util.TextViewWithFont
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/text_card_6_13"
+                    font:name="MSGothic"
+                    font:textcolor="black"
+                    font:textsize="nomarl" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

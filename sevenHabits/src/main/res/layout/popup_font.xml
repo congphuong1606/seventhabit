@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:gravity="right"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_smallxxx" >
+
+        <ImageView
+            android:id="@+id/popup_setting_choose_session_mtpopup_right"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_smallxxx"
+            android:layout_marginRight="90dp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/ic_mtpopup_white"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ebook_popup_menu_layout"
+        android:layout_width="@dimen/ebook_popup_menu_width"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_small"
+        android:background="@drawable/bg_popup_while"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp" >
+
+            <LinearLayout
+                android:id="@+id/ll_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/img_back"
+                    android:layout_width="10dp"
+                    android:layout_height="15dp"
+                    android:background="@drawable/ic_back_" />
+
+                <TextView
+                    android:id="@+id/tv_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:text="戻る"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/text_size_smallxx" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_font"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="フォント"
+                android:textSize="@dimen/text_size_smallxx"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lv_font"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginBottom="10dp" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

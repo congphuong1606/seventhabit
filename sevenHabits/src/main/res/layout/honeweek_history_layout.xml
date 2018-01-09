@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/drawer_item_btnmenu_width"
+        android:background="@color/bluex"
+        android:paddingBottom="@dimen/margin_tinyx"
+        android:paddingTop="@dimen/margin_tinyx" >
+
+        <TextView
+            android:layout_width="@dimen/drawer_item_btnmenu_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="完了"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_smallxx"
+            android:clickable="true"
+            android:onClick="clickBack" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/drawer_item_btnmenu_width"
+            android:layout_marginRight="@dimen/drawer_item_btnmenu_width"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="clickBack"
+            android:singleLine="true"
+            android:text="過去の週"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/honeweek_history_all_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:choiceMode="singleChoice"
+        android:divider="@color/gray_3"
+        android:dividerHeight="0.5dp" />
+
+</LinearLayout>

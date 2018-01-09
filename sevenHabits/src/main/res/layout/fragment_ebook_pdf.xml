@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.discovertodo.phone.android.fragment.EbookPdfFragment">
+
+    <ViewAnimator
+        android:id="@+id/pswitcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:id="@+id/pmainBar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/drawer_item_btnmenu_width"
+            android:background="@color/white"
+            android:clickable="true"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/btn_menu_ebook"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/margin_normal"
+                android:paddingRight="@dimen/margin_normal"
+                android:text="ライブラリ"
+                android:textColor="@color/bluex"
+                android:textSize="@dimen/text_size_smallx" />
+
+            <ImageView
+                android:id="@+id/ebookMark"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/ebookSearch"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_bookmark" />
+
+            <ImageView
+                android:id="@+id/ebookSearch"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/ebookMark"
+                android:background="@drawable/seach" />
+
+            <ImageView
+                android:id="@+id/ebookSetting"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_alignTop="@+id/ebookSearch"
+                android:layout_toLeftOf="@+id/ebookSearch"
+                android:background="@drawable/ic_change_web_blue" />
+
+            <ImageView
+                android:id="@+id/ebookOutline"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/btn_menu_ebook"
+                android:background="@drawable/menu0" />
+
+            <TextView
+                android:id="@+id/btn_back"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/ebookOutline"
+                android:width="30dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="再開"
+                android:textColor="@color/bluex"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/searchBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/toolbar"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_search_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:src="@drawable/ic_close_white_24dp" />
+
+            <EditText
+                android:id="@+id/edt_search_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:hint="@string/search"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textColorHighlight="#a0a0a0"
+                android:textColorHint="#a0a0a0"
+                android:textSize="16dp" />
+
+            <ImageButton
+                android:id="@+id/btn_searchBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:src="@drawable/ic_chevron_left_white_24dp" />
+
+            <ImageButton
+                android:id="@+id/btn_searchForward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:src="@drawable/ic_chevron_right_white_24dp" />
+
+        </LinearLayout>
+    </ViewAnimator>
+
+    <RelativeLayout
+        android:id="@+id/lowerButtons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <SeekBar
+            android:id="@+id/sb_hori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_numberpage"
+            android:layout_marginBottom="@dimen/margin_tiny"
+            android:layout_marginLeft="@dimen/margin_smallxx"
+            android:layout_marginRight="@dimen/margin_smallxx"
+            android:progress="0"
+            android:thumb="@drawable/btn_radio1" />
+
+        <TextView
+            android:id="@+id/tv_numberpage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_small"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

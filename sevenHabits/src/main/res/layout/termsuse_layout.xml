@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent" >
+    	<LinearLayout 
+    	    android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:orientation="vertical" > 
+    	
+	    	<com.discovertodo.phone.android.model.JustifyTextView
+	    	    android:id="@+id/termsuse_text"
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="@dimen/margin_normalxxx" 
+	    		android:layout_marginRight="@dimen/margin_normalx"
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/black" />
+	    	
+	    	<TextView 
+	    	    android:layout_width="match_parent"
+	    		android:layout_height="match_parent"
+	    		android:layout_marginLeft="@dimen/margin_normalxx" 
+	    		android:layout_marginRight="@dimen/margin_normalxxx"
+	    		android:gravity="right"
+	    		android:textSize="@dimen/text_size_normal"
+	    		android:textColor="@color/black"
+	    		android:text="以上\n2015年3月1日\nフランクリン・コヴィー・ジャパン株式会社\n" />
+    	
+    	</LinearLayout>
+        
+    </ScrollView>
+    
+
+</LinearLayout>

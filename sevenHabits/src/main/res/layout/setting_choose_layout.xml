@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+    
+    <RelativeLayout
+	    android:layout_width="match_parent"
+    	android:layout_height="@dimen/drawer_item_btnmenu_width"
+    	android:background="@color/bluex"
+    	android:paddingTop="@dimen/margin_tinyx"
+    	android:paddingBottom="@dimen/margin_tinyx" >
+    	
+        <LinearLayout 
+		    android:layout_width="wrap_content"
+	    	android:layout_height="match_parent"
+	    	android:layout_marginLeft="@dimen/margin_smallxx"
+	    	android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="clickBack" >
+		    <ImageView 
+			    android:layout_width="@dimen/margin_smallxx"
+		    	android:layout_height="match_parent"
+		    	android:padding="@dimen/margin_tiny"
+		    	android:src="@drawable/ic_btn_back" />
+		    <TextView 
+			    android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_marginLeft="@dimen/margin_tinyxxx"
+		    	android:gravity="center_vertical"
+		    	android:textColor="@color/white"
+		    	android:textSize="@dimen/text_size_normal"
+		        android:text="設定"/>
+        </LinearLayout>
+        
+        <TextView 
+	        android:id="@+id/setting_choose_btn_check_session"
+	        android:layout_width="@dimen/drawer_item_btnmenu_width"
+	        android:layout_height="match_parent"
+	        android:gravity="center"
+	        android:layout_alignParentRight="true"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_size_normal"
+            android:text="保存"
+            android:visibility="gone" />
+    	
+	    <TextView 
+	        android:id="@+id/setting_choose_text_title"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="@dimen/drawer_item_btnmenu_width"
+	        android:layout_marginRight="@dimen/drawer_item_btnmenu_width"
+	        android:singleLine="true"
+	        android:gravity="center"
+	        android:layout_centerInParent="true"
+	        android:textSize="@dimen/text_size_normal"
+	        android:textColor="@color/white"
+	        android:text="デイリー・ブースター" />
+	    
+	</RelativeLayout> 
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="@dimen/margin_normal"
+    	android:gravity="center"
+    	android:visibility="gone" >
+    
+	    <NumberPicker
+	        android:id="@+id/setting_choose_hour"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    
+	    <TextView
+	        android:id="@+id/setting_choose_txt_dot2"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	        android:layout_marginLeft="@dimen/margin_largex"
+	    	android:layout_centerVertical="true"
+	        android:layout_toRightOf="@id/setting_choose_hour"
+	        android:paddingBottom="@dimen/margin_small"
+	    	android:textColor="@color/black"
+	    	android:textSize="30sp"
+	    	android:text=":" />
+    
+	    <NumberPicker
+	        android:id="@+id/setting_choose_minute"
+	        android:layout_toRightOf="@id/setting_choose_txt_dot2"
+	        android:layout_marginLeft="@dimen/margin_largex"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+        
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/setting_choose_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:choiceMode="singleChoice"
+        android:divider="@color/gray_3"
+        android:dividerHeight="0.5dp"
+    	android:visibility="gone" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_largexx"
+        android:layout_marginLeft="@dimen/margin_normalxxx"
+        android:layout_marginRight="@dimen/margin_normalxxx"
+        android:orientation="vertical"
+        android:visibility="gone" >
+	    <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+        	android:background="@drawable/bg_edit_form" >
+	        <ImageView 
+	            android:id="@+id/setting_choose_session_btn_help"
+		        android:layout_width="@dimen/settings_ic_help_width"
+		        android:layout_height="@dimen/settings_ic_help_width"
+	            android:layout_alignParentRight="true"
+	            android:src="@drawable/ic_help"/>
+	        <EditText 
+	            android:id="@+id/setting_choose_session_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_centerVertical="true"
+		        android:layout_marginRight="@dimen/settings_ic_help_width"
+		        android:layout_marginLeft="@dimen/margin_smallxx"
+		        android:background="@color/white"
+		        android:gravity="center_vertical"
+		        android:singleLine="true"
+		        android:textColor="@color/black"
+		        android:textSize="@dimen/text_size_normal" />
+	    </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

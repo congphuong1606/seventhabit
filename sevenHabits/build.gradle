@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+
+    }
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+
+    defaultConfig {
+        applicationId "com.discovertodo.phone.android"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 4
+        versionName "1.2.2"
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            debug {
+                debuggable true
+            }
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile project(':main')
+    compile project(':mupdflib')
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile files('libs/epublib-core-latest.jar')
+    compile 'com.github.barteksc:android-pdf-viewer:2.0.3'
+    compile files('libs/jsoup-1.8.3.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile files('libs/slf4j-android-1.6.1-RC1.jar')
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    //noinspection GradleCompatible
+    compile 'com.android.support:appcompat-v7:25.4.0'
+    compile 'com.android.support:support-v4:25.4.0'
+}

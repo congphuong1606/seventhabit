@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"  >
+
+    <ImageView
+        android:id="@+id/drawer_item_icon"
+        android:layout_width="@dimen/drawer_item_icon_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/margin_smallx"
+        android:layout_marginRight="@dimen/margin_smallxxx"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/drawer_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_toLeftOf="@id/drawer_item_icon"
+        android:paddingLeft="@dimen/margin_normal"
+        android:paddingTop="@dimen/margin_smallxxx"
+        android:paddingBottom="@dimen/margin_smallxxx"
+        android:textSize="@dimen/text_size_normal"
+        android:textColor="@drawable/slidermenu_item_list_text"
+        android:text="Vô địch"/>
+    
+</RelativeLayout>

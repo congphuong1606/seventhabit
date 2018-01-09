@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/honeweek_item_header_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:paddingBottom="@dimen/margin_small"
+        android:paddingLeft="@dimen/margin_normalx"
+        android:paddingTop="@dimen/margin_small"
+        android:text="AAAAAAAAAA"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_normalx" />
+
+</LinearLayout>

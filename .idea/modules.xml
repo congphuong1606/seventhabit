@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidStudio.iml" filepath="$PROJECT_DIR$/AndroidStudio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mupdflib/mupdflib.iml" filepath="$PROJECT_DIR$/mupdflib/mupdflib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sevenHabits/sevenHabits.iml" filepath="$PROJECT_DIR$/sevenHabits/sevenHabits.iml" />
+    </modules>
+  </component>
+</project>
